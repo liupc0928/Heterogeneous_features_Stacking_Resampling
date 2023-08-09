@@ -5,7 +5,7 @@ from Features.HuMoments import hu_monments as Hu
 from Features.GraphFeats import Graph
 from Features.StructureInFeats import Tensor, LBP
 
-from Heterogeneous.utils import TransferLabel, plot_confusion_matrix as pltcm, tsne, normalization as norm
+from utils import TransferLabel, plot_confusion_matrix as pltcm, tsne, normalization as norm
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classification_report
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
